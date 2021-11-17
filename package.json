@@ -1,0 +1,22 @@
+{
+  "name": "app_express",
+  "version": "1.0.0",
+  "description": "app usando framework express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LizMarrufo/app_express.git"
+  },
+  "keywords": [
+    "express"
+  ],
+  "author": "Diana Marrufo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LizMarrufo/app_express/issues"
+  },
+  "homepage": "https://github.com/LizMarrufo/app_express#readme"
+}
