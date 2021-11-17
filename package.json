@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/LizMarrufo/app_express/issues"
   },
-  "homepage": "https://github.com/LizMarrufo/app_express#readme"
+  "homepage": "https://github.com/LizMarrufo/app_express#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
