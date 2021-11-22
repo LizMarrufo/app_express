@@ -28,6 +28,16 @@ const router = app =>{
         response.send(result);
        });
    });
+
+    //agregar nuevo usuario
+    app.post('/users', (request, response) =>{
+        pool.query('INSERT INTO users SET ?', request.body, (error, result) => {
+                if(error) throw error;
+
+                response.status(201).send(`User added whit ID: ${result.insertId}`);
+            });
+    });
+
 }
    //exportar el router 
    module.exports = router; 
